@@ -1,0 +1,24 @@
+{
+  "name": "@resumer/backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@resumer/shared-types": "*",
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "ts-morph": "^24.0.0",
+    "archiver": "^7.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/express": "^5.0.0",
+    "@types/cors": "^2.8.17",
+    "@types/archiver": "^6.0.0",
+    "tsx": "^4.19.0"
+  }
+}
