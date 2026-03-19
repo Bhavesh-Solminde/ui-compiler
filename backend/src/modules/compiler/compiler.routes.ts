@@ -1,8 +1,8 @@
-import { Router } from "express";
-import { compileDesignSystem } from "./compiler.controller.js";
+import { Router } from 'express';
+import { compileDesignSystemHandler } from './compiler.controller.js';
 
-const compilerRouter = Router();
+const router = Router();
 
-compilerRouter.post("/compile", compileDesignSystem);
+router.post('/compile', compileDesignSystemHandler);
 
-export default compilerRouter;
+export default router;
